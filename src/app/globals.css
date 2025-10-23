@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  @apply bg-midnight-950 text-white antialiased;
+}
+
+main {
+  @apply relative overflow-hidden;
+}
+
+a {
+  @apply text-accent-400 hover:text-accent-300 transition-colors;
+}
